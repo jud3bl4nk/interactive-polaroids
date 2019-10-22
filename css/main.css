@@ -25,31 +25,33 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
   position: absolute;
-  left: 3em;
-  bottom: 3em;
-}
-
-.polaroid:hover {
-  transform: rotate(30deg);
-  z-index: 50;
-  box-shadow: 3px 3px 3px;
+  left: 5em;
+  bottom: 1em;
 }
 
 .polaroid:first-child {
-  z-index: 3;
-  transform: rotate(30deg);
-  left: 30%;
-  top: 50%;
+  z-index: 1;
+  transform: rotate(-10deg);
+  left: 20%;
+  top: 100px;
 }
 
 .polaroid:nth-child(2) {
   z-index: 3;
-  transform: rotate(30deg);
+  transform: rotate(5deg);
   left: 30%;
-  top: 50%;
+  top: 150px;
 }
 
 .polaroid:nth-child(3) {
-  z-index: 3;
-  transform: rotate(30deg);
+  z-index: 2;
+  transform: rotate(20deg);
+  left: 40%;
+  top: 100px;
+}
+
+.polaroid:hover {
+  transform: rotate(0deg);
+  z-index: 100;
+  box-shadow: 3px 12px 18px rgba(0, 0, 0, .5);
 }
